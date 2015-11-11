@@ -21,7 +21,20 @@ Default Docker image is [yegor256/rultor](https://registry.hub.docker.com/u/yego
 
 ## What Is Rultor?
 
-TBD... _product statement_
+Rultor is a DevOps team assistant. It helps your programmers and release managers automate routine operations, with an easy-to-use intuitive interface:
+
+- Merging of pull requests (ensures that builds remain clean)
+- Deploying to production and stage environments
+- Releasing and tagging
+
+Basic Commands
+
+There are three main operations you can perform with Rultor: merge, deploy and release. Every call to Rultor is posted in a Github issue as a comment (yes, any Github issue, in any Github project!)
+
+Commands must start with @rultor followed by command text.
+
+For example, in a pull request that is ready to be merged you post a new comment saying, literally:
+
 
 ## What Problem Does Rultor Solve?
 
